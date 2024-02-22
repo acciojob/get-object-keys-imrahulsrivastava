@@ -4,7 +4,7 @@ const student = {
   city: "New York",
 };
 
-student.prototype.getKeys = function () {
+Object.prototype = function getKeys () {
   return Object.keys(this);
 };
 
